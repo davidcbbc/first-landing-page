@@ -153,10 +153,10 @@ export default function FeaturesPlanet() {
           </div>
           {/* Grid */}
           <div className="grid overflow-hidden sm:grid-cols-2 lg:grid-cols-3 *:relative *:p-6 *:before:absolute *:before:bg-gray-800 *:before:[block-size:100vh] *:before:[inline-size:1px] *:before:[inset-block-start:0] *:before:[inset-inline-start:-1px] *:after:absolute *:after:bg-gray-800 *:after:[block-size:1px] *:after:[inline-size:100vw] *:after:[inset-block-start:-1px] *:after:[inset-inline-start:0] md:*:p-10">
-            <article>
+            <article className="group">
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <Eye
-                  className="h-4 w-4 text-[var(--color-brand-500)]"
+                  className="h-4 w-4 text-[var(--color-brand-500)] opacity-70 transition-all duration-300 group-hover:opacity-100 group-hover:text-[var(--color-brand-300)]"
                   strokeWidth={1.75}
                 />
                 <span>Darkweb Threat Monitoring</span>
@@ -167,10 +167,10 @@ export default function FeaturesPlanet() {
                 and executives.
               </p>
             </article>
-            <article>
+            <article className="group">
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <KeyRound
-                  className="h-4 w-4 text-[var(--color-brand-500)]"
+                  className="h-4 w-4 text-[var(--color-brand-500)] opacity-70 transition-all duration-300 group-hover:opacity-100 group-hover:text-[var(--color-brand-300)]"
                   strokeWidth={1.75}
                 />
                 <span>Leaked Credential Triage</span>
@@ -181,10 +181,10 @@ export default function FeaturesPlanet() {
                 access.
               </p>
             </article>
-            <article>
+            <article className="group">
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <Bug
-                  className="h-4 w-4 text-[var(--color-brand-500)]"
+                  className="h-4 w-4 text-[var(--color-brand-500)] opacity-70 transition-all duration-300 group-hover:opacity-100 group-hover:text-[var(--color-brand-300)]"
                   strokeWidth={1.75}
                 />
                 <span>CVE &amp; Exploit Correlation</span>
@@ -195,10 +195,10 @@ export default function FeaturesPlanet() {
                 darkweb intent.
               </p>
             </article>
-            <article>
+            <article className="group">
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <Radar
-                  className="h-4 w-4 text-[var(--color-brand-500)]"
+                  className="h-4 w-4 text-[var(--color-brand-500)] opacity-70 transition-all duration-300 group-hover:opacity-100 group-hover:text-[var(--color-brand-300)]"
                   strokeWidth={1.75}
                 />
                 <span>Attack Surface Management</span>
@@ -209,10 +209,10 @@ export default function FeaturesPlanet() {
                 attackers see first.
               </p>
             </article>
-            <article>
+            <article className="group">
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <Swords
-                  className="h-4 w-4 text-[var(--color-brand-500)]"
+                  className="h-4 w-4 text-[var(--color-brand-500)] opacity-70 transition-all duration-300 group-hover:opacity-100 group-hover:text-[var(--color-brand-300)]"
                   strokeWidth={1.75}
                 />
                 <span>Red Teaming Operations</span>
@@ -223,10 +223,10 @@ export default function FeaturesPlanet() {
                 environment.
               </p>
             </article>
-            <article>
+            <article className="group">
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <PenTool
-                  className="h-4 w-4 text-[var(--color-brand-500)]"
+                  className="h-4 w-4 text-[var(--color-brand-500)] opacity-70 transition-all duration-300 group-hover:opacity-100 group-hover:text-[var(--color-brand-300)]"
                   strokeWidth={1.75}
                 />
                 <span>Penetration Testing</span>
@@ -236,10 +236,10 @@ export default function FeaturesPlanet() {
                 prioritized fixes back to engineering and governance teams.
               </p>
             </article>
-            <article>
+            <article className="group">
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <Network
-                  className="h-4 w-4 text-[var(--color-brand-500)]"
+                  className="h-4 w-4 text-[var(--color-brand-500)] opacity-70 transition-all duration-300 group-hover:opacity-100 group-hover:text-[var(--color-brand-300)]"
                   strokeWidth={1.75}
                 />
                 <span>Third-Party Incident Watch</span>
@@ -249,10 +249,10 @@ export default function FeaturesPlanet() {
                 cascading risk to your supply chain and customers.
               </p>
             </article>
-            <article>
+            <article className="group">
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <Workflow
-                  className="h-4 w-4 text-[var(--color-brand-500)]"
+                  className="h-4 w-4 text-[var(--color-brand-500)] opacity-70 transition-all duration-300 group-hover:opacity-100 group-hover:text-[var(--color-brand-300)]"
                   strokeWidth={1.75}
                 />
                 <span>Actionable Workflows</span>
@@ -262,10 +262,10 @@ export default function FeaturesPlanet() {
                 partners with context that shortens investigation to minutes.
               </p>
             </article>
-            <article>
+            <article className="group">
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <ShieldAlert
-                  className="h-4 w-4 text-[var(--color-brand-500)]"
+                  className="h-4 w-4 text-[var(--color-brand-500)] opacity-70 transition-all duration-300 group-hover:opacity-100 group-hover:text-[var(--color-brand-300)]"
                   strokeWidth={1.75}
                 />
                 <span>Brand Protection &amp; Takedowns</span>
