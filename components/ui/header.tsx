@@ -15,6 +15,14 @@ export default function Header() {
           <ul className="flex flex-1 items-center justify-end gap-3">
             <li>
               <Link
+                href="/about"
+                className="text-gray-800 transition hover:text-[var(--color-brand-700)]"
+              >
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/blog"
                 className="text-gray-800 transition hover:text-[var(--color-brand-700)]"
               >
